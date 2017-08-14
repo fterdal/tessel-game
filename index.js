@@ -41,7 +41,7 @@ tenSound.play();
 
 
 let correctAnswers = [1, 2, 2, 2, 1, 2, 1, 1, 2, 1];
-correctAnswers = [1,2];
+// correctAnswers = [1,2];
 let arr = [];
 // console.log('HELLO WORLD!');
 

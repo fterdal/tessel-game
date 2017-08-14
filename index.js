@@ -17,6 +17,15 @@ const twoSound = new av.Player(two);
 const correctSound = new av.Player(correct);
 const buzzerSound = new av.Player(buzzer);
 
+const answersLength = 6;
+let answerArray = [];
+for (let i=0; i<answersLength; i++) {
+  let newNumber = Math.random() > 0.5 ? 2 : 1;
+  answerArray.push( newNumber  );
+}
+console.log(answerArray);
+
+
 oneSound.play();
 oneSound.on('ended', function(seconds) {
   twoSound.play();
